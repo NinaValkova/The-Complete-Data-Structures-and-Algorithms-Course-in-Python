@@ -1,0 +1,49 @@
+What will be the output of the following code block?
+
+init_tuple = ()
+print (init_tuple.__len__())
+
+Answer: 0
+
+Question 2:
+What will be the output of the following code block?
+
+init_tuple_a = 'a', 'b'
+init_tuple_b = ('a', 'b')
+ 
+print(init_tuple_a == init_tuple_b)
+
+Answer: True
+
+Question 3:
+What will be the output of the following code block?
+
+init_tuple_a = '1', '2'
+init_tuple_b = ('3', '4')
+ 
+print (init_tuple_a + init_tuple_b)
+
+Answer: ('1', '2', '3', '4')
+
+Question 4:
+What will be the output of the following code block?
+
+init_tuple_a = 1, 2
+init_tuple_b = (3, 4)
+ 
+[print(sum(x)) for x in [init_tuple_a + init_tuple_b]]
+
+Answer: 10
+
+Question 5:
+What will be the output of the following code block?
+
+init_tuple = [(0, 1), (1, 2), (2, 3)]
+ 
+result = sum(n for _, n in init_tuple) - extract second element of each tuple - denoted by n, discard first dentoted with _
+ 
+print(result)
+
+Answer: 6
+
+
